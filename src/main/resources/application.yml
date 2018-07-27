@@ -41,12 +41,12 @@ spring:
 ########################################################################################################################
 # MYSQL
 ########################################################################################################################
-spring:
-  datasource:
-    username: sql12248426
-    password: eULaepVdzK
-    driver-class-name: com.mysql.jdbc.Driver
-    url:  jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12248426?useSSL=false
+#spring:
+#  datasource:
+#    username: sql12248426
+#    password: eULaepVdzK
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url:  jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12248426?useSSL=false
 
 ########################################################################################################################
 # H2 -> MySQL 로 변경되므로 주석으로 막아두겠음.
