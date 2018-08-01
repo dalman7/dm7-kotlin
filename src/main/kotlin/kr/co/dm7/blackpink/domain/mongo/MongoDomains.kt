@@ -9,7 +9,7 @@ import javax.persistence.GenerationType
 @Document(collection = "domain")
 class Domain(
         @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-        val id: String,
+        var id: String? = null,
         @Indexed(unique = true)
         val name: String,
         val url: String,
